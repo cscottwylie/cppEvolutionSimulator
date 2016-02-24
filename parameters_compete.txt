@@ -1,0 +1,38 @@
+trials              = 10000
+
+trajectory_filename = traj
+summary_filename    = fin_states
+
+report_at_start     = 1    (write to trajectory_filename)
+report_during       = 1    (write to trajectory_filename)
+report_at_end       = 0    (write to summary_filename)
+
+report_dt           = 1.0
+report_dgen         = 1.0
+
+pop_capacity        = 100
+cells_init_tracked  = 10
+
+birth_prefactor_s0  = 1.0
+mut_ben_s0      = 0.000001   (mutation rate PER GENEOME)
+mut_del_s0      = 0.0001
+s_ben_s0            = 0.1
+s_del_s0            = 1
+log_chg_rate_s0     = -999   
+death_rate_s0       = 0.0
+
+birth_prefactor_s1  = 1.0
+mut_ben_s1      = 0.0001   (mutation rate PER GENEOME)
+mut_del_s1      = 0.01
+s_ben_s1            = 0.1
+s_del_s1            = 1
+log_chg_rate_s1     = -999   
+death_rate_s1       = 0.0
+
+birth_prefactor_s2  = 1.0
+mut_ben_s2      = 0   (mutation rate PER GENEOME)
+mut_del_s2      = 0
+s_ben_s2            = 0.013
+s_del_s2            = 0.012
+log_chg_rate_s2     = -999   
+death_rate_s2       = 0.0

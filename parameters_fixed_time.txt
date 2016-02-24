@@ -1,0 +1,30 @@
+term_time           = 1    (in units of N generations)
+trajectory_filename = traj_
+
+report_dgen         = 1.0
+
+pop_capacity        = 1000
+
+birth_prefactor_s0  = 1.0
+mut_ben_s0      = 0   (mutation rate PER GENEOME)
+mut_del_s0      = 0.003
+s_ben_s0            = 0.013
+s_del_s0            = 0.2
+log_chg_rate_s0     = -999   
+death_rate_s0       = 0.0
+
+birth_prefactor_s1  = 1.0
+mut_ben_s1      = 0   (mutation rate PER GENEOME)
+mut_del_s1      = 0
+s_ben_s1            = 0.013
+s_del_s1            = 0.012
+log_chg_rate_s1     = -999   
+death_rate_s1       = 0.0
+
+birth_prefactor_s2  = 1.0
+mut_ben_s2      = 0   (mutation rate PER GENEOME)
+mut_del_s2      = 0
+s_ben_s2            = 0.012
+s_del_s2            = 0.012
+log_chg_rate_s2     = -999   
+death_rate_s2       = 0.0
